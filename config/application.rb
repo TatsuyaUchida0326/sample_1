@@ -6,6 +6,9 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# 追加する行
+require 'devise/orm/active_record'
+
 module Sample1
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.

@@ -53,6 +53,14 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  # DeviseのためのデフォルトURLオプション
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # メールの送信方法をletter_opener_webに設定
+  config.action_mailer.delivery_method = :letter_opener_web
+  # 実際にメールを送信する
+  config.action_mailer.perform_deliveries = true
+
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
 
