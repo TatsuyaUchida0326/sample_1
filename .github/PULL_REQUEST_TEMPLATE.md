@@ -1,6 +1,11 @@
 ### PR概要
-_PR概要を記述する_
-
+下記の内容を実装する。
+・sign_in画面
+・sign_up画面
+・入力必須の確認
+・confirmation/new画面
+・ltter_opener_webの受信確認
+・Userが作成されていることを確認
 
 ### 実装画面スクショを添付したスプシのリンク
-_誰でも確認できるように、権限を付与すること_
+https://docs.google.com/spreadsheets/d/1mdctCV4q0oeH2I6GYuMKyzCiO_zPCH-UF59jXOZz9A0/edit#gid=1724401111
