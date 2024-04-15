@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  get 'home/index'
   devise_for :users
+
+  devise_scope :user do
+    root to: 'devise/sessions#new'
+  end
   
-  root 'home#index'
-  
+  get 'home/index'
   resources :users, only: [:show]
 
   # 開発環境のみでLetterOpenerWebのルートを有効にする
