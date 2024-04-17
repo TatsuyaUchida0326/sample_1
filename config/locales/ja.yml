@@ -1,0 +1,16 @@
+ja:
+  errors:
+    format: "%{message}"  # エラーメッセージにモデル名を含めない設定
+  activerecord:
+    models:
+      user: "ユーザー"  # User モデルの日本語名
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "メールアドレスを入力してください"
+            password:
+              blank: "パスワードを入力してください"
+            name:
+              blank: "名前を入力してください"
