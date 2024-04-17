@@ -1,12 +1,17 @@
 Rails.application.routes.draw do
-  get 'home/index'
   devise_for :users
-  
-  root 'home#index'
-  
+
+  devise_scope :user do
+    root to: 'devise/sessions#new'
+  end
+
+  get 'home/index'
+
+  # このルートを`resources :users`より上に設定
+  get 'users/dash_boards', to: 'dashboards#show'
+
   resources :users, only: [:show]
 
-  # 開発環境のみでLetterOpenerWebのルートを有効にする
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/letter_opener"
   end
