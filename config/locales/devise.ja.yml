@@ -1,5 +1,17 @@
 ja:
   devise:
+    mailer:
+      reset_password_instructions:
+        subject: "パスワードリセットのお知らせ"
+        greeting: "こんにちは、%{email}さん！"
+        someone_requested: "パスワードをリセットするためのリンクが要求されました。以下のリンクを通じて行うことができます。"
+        change_my_password: "パスワードを変更する"
+        ignore: "もしこのリクエストを行っていない場合は、このメールを無視してください。"
+        warning: "パスワードは上記のリンクをアクセスして新しいものを作成するまで変更されません。"
+      confirmation_instructions:
+        greeting: "ようこそ %{email}さん！"
+        instruction: "以下のリンクを通じてあなたのアカウントのメールアドレスを確認できます："
+        confirm_my_account: "アカウントを確認する"
     sessions:
       new:
         log_in: "ログイン"
