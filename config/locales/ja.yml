@@ -1,16 +1,22 @@
 ja:
   errors:
-    format: "%{message}"  
+    format: "%{message}"
+    messages:
+      already_confirmed: "すでに確認されています。サインインしてみてください"
+      expired: "パスワードを入力してください"
   activerecord:
     models:
-      user: "ユーザー" 
+      user: "ユーザー"
     errors:
       models:
         user:
           attributes:
-            email:
-              blank: "名前を入力してください"
-            password:
-              blank: "Eメールを入力してください"
-            name:
+            current_password:
               blank: "パスワードを入力してください"
+            email:
+              blank: "Eメールを入力してください"
+            password:
+              blank: "パスワードを入力してください"
+            name:
+              blank: "名前を入力してください"
+            
