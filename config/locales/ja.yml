@@ -1,0 +1,22 @@
+ja:
+  errors:
+    format: "%{message}"
+    messages:
+      already_confirmed: "すでに確認されています。サインインしてみてください"
+      expired: "パスワードを入力してください"
+  activerecord:
+    models:
+      user: "ユーザー"
+    errors:
+      models:
+        user:
+          attributes:
+            current_password:
+              blank: "パスワードを入力してください"
+            email:
+              blank: "Eメールを入力してください"
+            password:
+              blank: "パスワードを入力してください"
+            name:
+              blank: "名前を入力してください"
+            

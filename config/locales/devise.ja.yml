@@ -1,0 +1,72 @@
+ja:
+  devise:
+    mailer:
+      reset_password_instructions:
+        subject: "パスワードリセットのお知らせ"
+        greeting: "%{email}様"
+        someone_requested: "パスワード再設定の依頼を受けたため、メールを送信しています。下のリンクからパスワードの再設定ができます。"
+        change_my_password: "パスワード変更"
+        ignore: "パスワード再設定の依頼をしていない場合、このメールを無視してください。"
+        warning: "パスワードの再設定は、上のリンクから新しいパスワードを登録するまで完了しません。"
+      confirmation_instructions:
+        subject: "メールアドレス確認メール"
+        greeting: "%{email}様"
+        instruction: "以下のリンクをクリックし、メールアドレスの確認手順を完了させてください。"
+        confirm_my_account: "メールアドレスの確認"
+    sessions:
+      new:
+        log_in: "ログイン"
+        email: "メールアドレス"
+        password: "パスワード"
+        remember_me: "次回から自動的にログイン"
+        log_in_button: "ログイン"
+    passwords:
+      new:
+        forgot_your_password: "パスワードを忘れましたか？"
+        send_me_reset_password_instructions: "パスワードの再設定メールを送信する"
+      edit:
+        change_your_password: "パスワードの変更"
+        new_password: "新しいパスワード"
+        confirm_new_password: "新しいパスワードの確認"
+        change_my_password: "パスワードを変更する"
+    confirmations:
+      new:
+        resend_confirmation_instructions: "アカウント確認のメールを受け取っていませんか？"
+        submit_button: "アカウント確認メール再送"
+        email: "メールアドレス"
+    registrations:
+      new:
+        sign_up: "アカウント登録"
+        name: "名前"
+        email: "メールアドレス"
+        password: "パスワード"
+        password_confirmation: "パスワード確認"
+        characters_minimum: "%{count}文字以上"
+        sign_up_button: "登録する"
+      edit:
+        title: "%{name}の編集"
+        name: "名前"
+        email: "メールアドレス"
+        password: "パスワード"
+        leave_blank_if_no_change: "(空欄のままなら変更しません)"
+        minimum_password_length: "%{count}文字以上"
+        confirm_passwords: "パスワード(確認用)"
+        current_password: "現在のパスワード<br>（変更を反映するには現在のパスワードを入力してください）"
+        update: "更新"
+        unhappy_question: "気に入りません"
+        cancel_account: "アカウント削除"
+        back: "戻る"
+    shared:
+      links:
+        log_in: "ログイン"
+        sign_up: "アカウント登録"
+        forgot_password: "パスワードを忘れましたか？"
+        didnt_receive_confirmation_instructions: "アカウント確認のメールを受け取っていませんか？"
+        didnt_receive_unlock_instructions: "アンロック指示が届いていない方はこちら"
+        sign_in_with_provider: "%{provider}でサインイン"
+    errors:
+      messages:
+        not_saved:
+          one: "1件のエラーが発生したためユーザーは保存されませんでした。"
+          other: "%{count}件のエラーが発生したためユーザーは保存されませんでした。"
+      

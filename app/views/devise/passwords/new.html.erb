@@ -1,18 +1,18 @@
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-6">
-      <h2 class="mb-3 text-center">Forgot your password?</h2>
+      <h2 class="mb-3 text-center"><%= t('devise.passwords.new.forgot_your_password') %></h2>
 
       <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { class: 'needs-validation', novalidate: true }) do |f| %>
         <%= render "devise/shared/error_messages", resource: resource %>
 
         <div class="mb-3">
-          <%= f.label :email, class: 'form-label' %>
+          <%= f.label :email, t('devise.sessions.new.email'), class: 'form-label' %>
           <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'form-control' %>
         </div>
 
         <div class="actions mb-3 text-center">
-          <%= f.submit "Send me reset password instructions", class: 'btn btn-primary' %>
+          <%= f.submit t('devise.passwords.new.send_me_reset_password_instructions'), class: 'btn btn-primary' %>
         </div>
       <% end %>
 

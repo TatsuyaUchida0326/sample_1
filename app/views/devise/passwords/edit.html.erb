@@ -1,7 +1,7 @@
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-6">
-      <h2 class="mb-3 text-center">Change your password</h2>
+      <h2 class="mb-3 text-center"><%= t('devise.passwords.edit.change_your_password') %></h2>
 
       <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put, class: 'needs-validation', novalidate: true }) do |f| %>
         <%= render "devise/shared/error_messages", resource: resource %>
@@ -9,22 +9,22 @@
         <%= f.hidden_field :reset_password_token %>
 
         <div class="mb-3">
-          <%= f.label :password, "New password", class: 'form-label' %>
+          <%= f.label :password, t('devise.passwords.edit.new_password'), class: 'form-label' %>
           <div class="d-flex align-items-baseline">
             <% if @minimum_password_length %>
-              <em class="ms-1">( <%= @minimum_password_length %> characters minimum)</em>
+              <em class="ms-1">( <%= t('devise.registrations.new.characters_minimum', count: @minimum_password_length) %> )</em>
             <% end %>
           </div>
           <%= f.password_field :password, autofocus: true, autocomplete: "new-password", class: 'form-control mt-2' %>
         </div>
 
         <div class="mb-3">
-          <%= f.label :password_confirmation, "Confirm new password", class: 'form-label' %>
+          <%= f.label :password_confirmation, t('devise.passwords.edit.confirm_new_password'), class: 'form-label' %>
           <%= f.password_field :password_confirmation, autocomplete: "new-password", class: 'form-control' %>
         </div>
 
         <div class="actions mb-3 text-center">
-          <%= f.submit "Change my password", class: 'btn btn-primary' %>
+          <%= f.submit t('devise.passwords.edit.change_my_password'), class: 'btn btn-primary' %>
         </div>
       <% end %>
 

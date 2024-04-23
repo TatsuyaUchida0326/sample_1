@@ -1,1 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
+
+// カスタムボタンスタイル
+.custom-btn {
+  width: 300px;  // 幅を150pxに設定
+  display: inline-block;  // ボタンをインラインブロック要素として扱う
+}
+
+.lead.mb-4 {
+    font-weight: bold;  // フォントを太字に設定
+  }
+  
