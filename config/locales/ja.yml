@@ -4,6 +4,7 @@ ja:
     messages:
       already_confirmed: "すでに確認されています。サインインしてみてください"
       expired: "パスワードを入力してください"
+      invalid: "パスワードを入力してください"
   activerecord:
     models:
       user: "ユーザー"
@@ -12,7 +13,7 @@ ja:
         user:
           attributes:
             current_password:
-              blank: "パスワードを入力してください"
+              blank: "現在のパスワードを入力してください"
             email:
               blank: "Eメールを入力してください"
             password:

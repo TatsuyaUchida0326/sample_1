@@ -1,0 +1,51 @@
+[33m070e012[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: pull origin main: Fast-forward
+[33m3591057[m HEAD@{1}: checkout: moving from feat/devise_japanese to main
+[33m26e4033[m[33m ([m[1;32mfeat/devise_japanese[m[33m)[m HEAD@{2}: commit: PR提出完了
+[33m4a1b933[m[33m ([m[1;31morigin/feat/devise_japanese[m[33m)[m HEAD@{3}: checkout: moving from main to feat/devise_japanese
+[33m3591057[m HEAD@{4}: checkout: moving from feat/devise_japanese to main
+[33m4a1b933[m[33m ([m[1;31morigin/feat/devise_japanese[m[33m)[m HEAD@{5}: commit: PRfeat/devise_japanese
+[33mc0296ea[m HEAD@{6}: commit: ルーティングエラーの対応から再開
+[33ma5d0acf[m HEAD@{7}: commit: Letter openerの日本語化設定より再開
+[33m15620c3[m HEAD@{8}: commit: password再設定画面から再開
+[33m3591057[m HEAD@{9}: checkout: moving from main to feat/devise_japanese
+[33m3591057[m HEAD@{10}: commit: Dash Boards画面のボタン調整完了
+[33m0bc0098[m HEAD@{11}: pull origin main: Fast-forward
+[33mc658b16[m[33m ([m[1;31morigin/feat/devise_2[m[33m, [m[1;32mfeat/devise_2[m[33m)[m HEAD@{12}: checkout: moving from feat/devise_2 to main
+[33mc658b16[m[33m ([m[1;31morigin/feat/devise_2[m[33m, [m[1;32mfeat/devise_2[m[33m)[m HEAD@{13}: checkout: moving from main to feat/devise_2
+[33mc658b16[m[33m ([m[1;31morigin/feat/devise_2[m[33m, [m[1;32mfeat/devise_2[m[33m)[m HEAD@{14}: merge feat/devise_2: Fast-forward
+[33mdd45c36[m HEAD@{15}: checkout: moving from feat/devise_2 to main
+[33mc658b16[m[33m ([m[1;31morigin/feat/devise_2[m[33m, [m[1;32mfeat/devise_2[m[33m)[m HEAD@{16}: checkout: moving from main to feat/devise_2
+[33mdd45c36[m HEAD@{17}: checkout: moving from feat/devise_2 to main
+[33mc658b16[m[33m ([m[1;31morigin/feat/devise_2[m[33m, [m[1;32mfeat/devise_2[m[33m)[m HEAD@{18}: commit: feat/devise_2のPR提出
+[33m3b51972[m HEAD@{19}: commit: password edit画面から再開
+[33m5b9f812[m HEAD@{20}: commit: letter opener webでの受信確認画面から再開
+[33m9a51258[m HEAD@{21}: commit: Log inとSign in画面完成
+[33m9c7ecc3[m HEAD@{22}: commit: Bootstrapの適用とWebpackビルド問題の解決完了
+[33m7678433[m HEAD@{23}: commit: bootstrap5設定完了
+[33mdd45c36[m HEAD@{24}: checkout: moving from main to feat/devise_2
+[33mdd45c36[m HEAD@{25}: commit: localhost:3000をLoginページに設定
+[33me406ed3[m HEAD@{26}: merge origin/main: Fast-forward
+[33m02aa68f[m HEAD@{27}: checkout: moving from feat/devise_1 to main
+[33mfab07c0[m[33m ([m[1;32mfeat/devise_1[m[33m)[m HEAD@{28}: commit: localhost:3000をLoginページに設定
+[33m9e4dd4e[m[33m ([m[1;31morigin/feat/devise_1[m[33m)[m HEAD@{29}: commit (merge): Keep the PULL_REQUEST_TEMPLATE.md
+[33m6e701c5[m HEAD@{30}: checkout: moving from main to feat/devise_1
+[33m02aa68f[m HEAD@{31}: checkout: moving from feat/devise_1 to main
+[33m6e701c5[m HEAD@{32}: commit: PRの再提出
+[33m9a81b92[m HEAD@{33}: commit: PRの再提出
+[33m7fab650[m HEAD@{34}: commit: PRの提出
+[33m4ea4c73[m HEAD@{35}: commit: PRの提出
+[33m519a88e[m HEAD@{36}: commit: PRの提出
+[33m5c854a4[m HEAD@{37}: commit: PRの提出
+[33medfe86c[m HEAD@{38}: checkout: moving from main to feat/devise_1
+[33m02aa68f[m HEAD@{39}: revert: Revert "PRの提出"
+[33medfe86c[m HEAD@{40}: merge feat/devise_1: Fast-forward
+[33m14a3bc1[m HEAD@{41}: checkout: moving from feat/devise_1 to main
+[33medfe86c[m HEAD@{42}: commit: PRの提出
+[33m4c75ff4[m HEAD@{43}: commit: deviseを使用したユーザー認証機能の追加
+[33m14a3bc1[m HEAD@{44}: checkout: moving from main to feat/devise_1
+[33m14a3bc1[m HEAD@{45}: checkout: moving from feat/devise_1 to main
+[33m14a3bc1[m HEAD@{46}: checkout: moving from main to feat/devise_1
+[33m14a3bc1[m HEAD@{47}: commit: プロテクトテスト
+[33m4d825b3[m HEAD@{48}: commit: プロテクトテスト
+[33m7d14b5e[m HEAD@{49}: Branch: renamed refs/heads/master to refs/heads/main
+[33m7d14b5e[m HEAD@{51}: commit (initial): new repository
