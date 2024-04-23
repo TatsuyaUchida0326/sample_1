@@ -12,6 +12,10 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show]
 
+  namespace :users do
+    resources :articles
+  end
+
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/letter_opener"
   end

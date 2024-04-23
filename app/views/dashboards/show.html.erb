@@ -4,6 +4,9 @@
       <h1 class="mb-3">Dash Boards</h1>
       <p class="lead mb-4"><%= current_user.name %></p>
       <div class="mb-3">
+        <%= link_to '記事一覧', edit_user_registration_path, class: 'btn btn-primary btn-lg mb-2 custom-btn' %>
+      </div>
+      <div class="mb-3">
         <%= link_to '編集', edit_user_registration_path, class: 'btn btn-primary btn-lg mb-2 custom-btn' %>
       </div>
       <div class="mb-3">
