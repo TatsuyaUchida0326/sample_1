@@ -1,4 +1,5 @@
 class Users::ArticlesController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_article, only: [:show, :edit, :update, :destroy]
 
   # GET /users/articles
@@ -24,7 +25,12 @@ class Users::ArticlesController < ApplicationController
       render :new
     end
   end
-
+  
+  def set_article
+    @article = Article.find(params[:id])
+    logger.debug "Loaded article with ID: #{@article.id}"
+  end
+  
   # GET /users/articles/:id/edit
   def edit
   end

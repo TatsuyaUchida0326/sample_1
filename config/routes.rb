@@ -10,11 +10,11 @@ Rails.application.routes.draw do
   # このルートを`resources :users`より上に設定
   get 'users/dash_boards', to: 'dashboards#show'
 
-  resources :users, only: [:show]
-
   namespace :users do
     resources :articles
   end
+
+  resources :users, only: [:show]
 
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/letter_opener"
