@@ -15,11 +15,13 @@ ja:
         confirm_my_account: "メールアドレスの確認"
     sessions:
       new:
+        activation_notice: "アカウントの有効化について数分以内にメールでご連絡します。"
         log_in: "ログイン"
         email: "Eメール"
         password: "パスワード"
         remember_me: "次回から自動的にログイン"
         log_in_button: "ログイン"
+      account_deletion: "アカウント削除"
     passwords:
       new:
         forgot_your_password: "パスワードを忘れましたか？"
@@ -67,6 +69,6 @@ ja:
     errors:
       messages:
         not_saved:
-          one: "1件のエラーが発生したためユーザーは保存されませんでした。"
+          one: "エラーが発生したためユーザーは保存されませんでした。"
           other: "%{count}件のエラーが発生したためユーザーは保存されませんでした。"
       

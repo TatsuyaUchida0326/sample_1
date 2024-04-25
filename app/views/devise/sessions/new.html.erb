@@ -1,6 +1,7 @@
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-6">
+      <p class="mb-3 text-center" style="font-size: 20px;"><%= t('devise.sessions.new.activation_notice') %></p>
       <h2 class="mb-3 text-center"><%= t('devise.sessions.new.log_in') %></h2>
 
       <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: 'needs-validation', novalidate: true }) do |f| %>

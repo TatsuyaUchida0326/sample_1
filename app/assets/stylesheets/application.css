@@ -1,3 +1,9 @@
 .thick-border-bottom th {
     border-bottom: 2px solid #000 !important;
 }
+
+.account-deletion-text {
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+  }
+  
