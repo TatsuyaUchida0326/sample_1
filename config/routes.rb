@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   # このルートを`resources :users`より上に設定
   get 'users/dash_boards', to: 'dashboards#show'
 
+  namespace :users do
+    resources :articles
+  end
+
   resources :users, only: [:show]
 
   if Rails.env.development?

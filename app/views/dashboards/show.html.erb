@@ -4,9 +4,15 @@
       <h1 class="mb-3">Dash Boards</h1>
       <p class="lead mb-4"><%= current_user.name %></p>
       <div class="mb-3">
+        <!-- 記事一覧へのリンク -->
+        <%= link_to '記事一覧', users_articles_path, class: 'btn btn-primary btn-lg mb-2 custom-btn' %>
+      </div>
+      <div class="mb-3">
+        <!-- ユーザー編集へのリンク -->
         <%= link_to '編集', edit_user_registration_path, class: 'btn btn-primary btn-lg mb-2 custom-btn' %>
       </div>
       <div class="mb-3">
+        <!-- ログアウトへのリンク -->
         <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: 'btn btn-warning btn-lg custom-btn' %>
       </div>
     </div>
