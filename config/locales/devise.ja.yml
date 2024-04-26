@@ -17,7 +17,7 @@ ja:
       new:
         activation_notice: "アカウントの有効化について数分以内にメールでご連絡します。"
         log_in: "ログイン"
-        email: "Eメール"
+        email: "メールアドレス"
         password: "パスワード"
         remember_me: "次回から自動的にログイン"
         log_in_button: "ログイン"
